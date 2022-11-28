@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.globux.testfx.AppController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="28.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Label fx:id="labelOne" alignment="CENTER" maxWidth="1.7976931348623157E308" minWidth="50.0" text="Offline" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" />
+      <TextField minWidth="200.0" onAction="#onTextFieldAction" GridPane.columnIndex="1" />
+      <Button alignment="CENTER" contentDisplay="CENTER" minWidth="27.0" mnemonicParsing="false" prefWidth="27.0" text="+" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Button minWidth="27.0" mnemonicParsing="false" prefWidth="27.0" text="-" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+   </children>
+</GridPane>
